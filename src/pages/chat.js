@@ -57,17 +57,17 @@ export default function Chat() {
         </div>
       </div>
       {/* 질문 이력 리스트 시작 */}
-      <div class="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
-        <div class="flex flex-col items-center">
-          <h2 class="font-bold text-5xl mt-5 tracking-tight">History</h2>
-          <p class="text-neutral-500 text-xl mt-3">previous questions</p>
+      <div className="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
+        <div className="flex flex-col items-center">
+          <h2 className="font-bold text-5xl mt-5 tracking-tight">History</h2>
+          <p className="text-neutral-500 text-xl mt-3">previous questions</p>
         </div>
-        <div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
-          <div class="py-5">
-            <details class="group">
-              <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+        <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
+          <div className="py-5">
+            <details className="group">
+              <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
                 <span> What is a SAAS platform?</span>
-                <span class="transition group-open:rotate-180">
+                <span className="transition group-open:rotate-180">
                   <svg
                     fill="none"
                     height="24"
@@ -83,18 +83,18 @@ export default function Chat() {
                   </svg>
                 </span>
               </summary>
-              <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
                 SAAS platform is a cloud-based software service that allows
                 users to access and use a variety of tools and functionality.
               </p>
             </details>
           </div>
 
-          <div class="py-5">
-            <details class="group">
-              <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+          <div className="py-5">
+            <details className="group">
+              <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
                 <span> What is a SAAS platform?</span>
-                <span class="transition group-open:rotate-180">
+                <span className="transition group-open:rotate-180">
                   <svg
                     fill="none"
                     height="24"
@@ -110,7 +110,7 @@ export default function Chat() {
                   </svg>
                 </span>
               </summary>
-              <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
                 SAAS platform is a cloud-based software service that allows
                 users to access and use a variety of tools and functionality.
               </p>
